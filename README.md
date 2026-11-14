@@ -2,6 +2,8 @@
 
 ETL con Airflow que lleva la disponibilidad de las estaciones de Valenbisi desde la API del Ayuntamiento de València a PostgreSQL. Un DAG con tres tareas (extraer, transformar y cargar) que Airflow ejecuta cada 10 minutos.
 
+**Nota sobre el origen de este proyecto.** Este repositorio no es un proyecto propio. Es el ejercicio guiado de la Unidad 2 (ETL con Airflow) de Sistemas Big Data, que he seguido paso a paso con el material de la asignatura: la guía https://sistemas-big-data.github.io/up2-airflow/ y las diapositivas "ETL con Airflow" (Sergi Pérez Castaños). El DAG, el paquete y la estructura del proyecto son los del ejemplo de clase. Yo los he reproducido, ejecutado y comprobado, como se ve en el apartado "Comprobaciones hechas".
+
 ## Fuente de los datos
 
 Geoportal del Ayuntamiento de València, dataset «ValenBisi Disponibilidad» del portal de datos abiertos (opendata.vlci.valencia.es). Licencia CC BY 4.0: hay que citar la fuente. Los datos se actualizan cada 10 minutos.
